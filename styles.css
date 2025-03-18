@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(26, 11, 82);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Goldman", sans-serif;
+    margin: 4rem;
+    font-size: 4rem;
+    color: rgb(169, 77, 255);
+    margin-bottom: 2rem;
+}
+
+.tiles{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.396);
+    height: 70vh;
+    aspect-ratio: 1;
+    border-radius: 10%;
+}
+
+#red{
+    background-color: rgb(235, 57, 57);
+}
+
+#blue{
+    background-color: rgb(29, 195, 255);
+}
+
+#green{
+    background-color: rgb(29, 196, 29);
+}
+
+#yellow{
+    background-color: rgb(251, 255, 31);
+}
+.tile{
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+    width: 80%;
+    border: solid black 0.5rem ;
+    border-radius: 20%;
+}
+
+.wrong{
+    background-color: red;
+}
+.pressed{
+    box-shadow: 0 0.2rem 0.2rem 0;
+    opacity: 0.5;
+}
